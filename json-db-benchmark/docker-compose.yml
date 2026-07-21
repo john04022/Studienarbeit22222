@@ -1,0 +1,42 @@
+name: json-db-benchmark
+
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: json_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: jsonbench
+      MYSQL_USER: bench
+      MYSQL_PASSWORD: bench
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  mongodb:
+    image: mongo:8.0
+    container_name: json_mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  oracle:
+    image: gvenzl/oracle-free:23-slim
+    container_name: json_oracle
+    environment:
+      ORACLE_PASSWORD: Oracle12345
+    ports:
+      - "1521:1521"
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+    shm_size: "1g"
+
+volumes:
+  mysql_data:
+  mongo_data:
+  oracle_data:

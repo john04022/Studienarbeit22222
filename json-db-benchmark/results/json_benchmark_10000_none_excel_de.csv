@@ -1,0 +1,16 @@
+system;operation;avg_ms;median_ms;min_ms;max_ms
+MySQL;Insert;240,01;240,22;231,99;250,81
+MySQL;Selektion Top-Level;2,91;2,87;2,82;3,2
+MySQL;Selektion verschachtelt;3,12;3,12;3,08;3,17
+MySQL;Selektion Array;20,63;20,61;20,47;20,85
+MySQL;Update;11,72;11,61;11,34;12,74
+MongoDB;Insert;71,4;72,23;67,46;73,39
+MongoDB;Selektion Top-Level;2,12;2,1;2,05;2,24
+MongoDB;Selektion verschachtelt;2,35;2,34;2,29;2,4
+MongoDB;Selektion Array;2,79;2,79;2,73;2,85
+MongoDB;Update;0,79;0,78;0,75;0,89
+OracleDB;Insert;788,87;796,05;722,31;830,21
+OracleDB;Selektion Top-Level;3,62;3,58;3,53;3,77
+OracleDB;Selektion verschachtelt;3,75;3,72;3,66;4,02
+OracleDB;Selektion Array;9,07;9,07;9,0;9,15
+OracleDB;Update;13,7;13,72;13,19;14,08

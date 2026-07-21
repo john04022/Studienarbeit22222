@@ -1,0 +1,9 @@
+MySQL:
+10000
+
+MongoDB:
+10000
+
+OracleDB:
+
+     10000

@@ -1,0 +1,20 @@
+MySQL: Prüfung der generierten Spalten und Indizes
+==================================================
+
++-------------------+-------------+------+-----+---------+------------------+
+| Field             | Type        | Null | Key | Default | Extra            |
++-------------------+-------------+------+-----+---------+------------------+
+| id                | int         | NO   | PRI | NULL    | auto_increment   |
+| daten             | json        | NO   |     | NULL    |                  |
+| status_gen        | varchar(30) | YES  | MUL | NULL    | STORED GENERATED |
+| land_gen          | varchar(5)  | YES  | MUL | NULL    | STORED GENERATED |
+| bestellnummer_gen | varchar(20) | YES  | MUL | NULL    | STORED GENERATED |
++-------------------+-------------+------+-----+---------+------------------+
++-------------------+------------+-------------------+--------------+-------------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| Table             | Non_unique | Key_name          | Seq_in_index | Column_name       | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | Visible | Expression |
++-------------------+------------+-------------------+--------------+-------------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| bestellungen_json |          0 | PRIMARY           |            1 | id                | A         |        9766 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| bestellungen_json |          1 | idx_status        |            1 | status_gen        | A         |           2 |     NULL |   NULL | YES  | BTREE      |         |               | YES     | NULL       |
+| bestellungen_json |          1 | idx_land          |            1 | land_gen          | A         |           5 |     NULL |   NULL | YES  | BTREE      |         |               | YES     | NULL       |
+| bestellungen_json |          1 | idx_bestellnummer |            1 | bestellnummer_gen | A         |        9766 |     NULL |   NULL | YES  | BTREE      |         |               | YES     | NULL       |
++-------------------+------------+-------------------+--------------+-------------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+

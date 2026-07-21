@@ -1,0 +1,23 @@
+{
+  "kunde": {
+    "land": "US",
+    "name": "Kunde 2",
+    "kundennummer": "K-10002"
+  },
+  "status": "offen",
+  "erstelltAm": "2026-05-03",
+  "positionen": [
+    {
+      "menge": 3,
+      "preis": 11.5,
+      "artikelnummer": "A-300"
+    },
+    {
+      "menge": 4,
+      "preis": 6.0,
+      "artikelnummer": "A-500"
+    }
+  ],
+  "zahlungsart": "PayPal",
+  "bestellnummer": "B-000002"
+}

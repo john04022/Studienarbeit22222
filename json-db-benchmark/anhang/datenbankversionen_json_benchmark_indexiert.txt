@@ -1,0 +1,18 @@
+Datenbankversionen des indexierten JSON-Leistungstests
+=====================================================
+
+MySQL:
+VERSION()
+8.4.9
+
+MongoDB:
+8.0.21
+
+OracleDB:
+
+BANNER
+--------------------------------------------------------------------------------
+Oracle AI Database 26ai Free Release 23.26.1.0.0 - Develop, Learn, and Run for F
+ree
+
+

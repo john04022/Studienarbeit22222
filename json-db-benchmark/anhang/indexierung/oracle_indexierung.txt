@@ -1,0 +1,19 @@
+OracleDB: Prüfung der funktionsbasierten JSON-Indizes
+=====================================================
+
+
+INDEX_NAME			    INDEX_TYPE		      UNIQUENESS      STATUS
+----------------------------------- ------------------------- --------------- ---------------
+IDX_ORACLE_BESTELLNUMMER	    FUNCTION-BASED NORMAL     NONUNIQUE       VALID
+IDX_ORACLE_LAND 		    FUNCTION-BASED NORMAL     NONUNIQUE       VALID
+IDX_ORACLE_STATUS		    FUNCTION-BASED NORMAL     NONUNIQUE       VALID
+SYS_C008602			    NORMAL		      UNIQUE	      VALID
+SYS_IL0000072851C00002$$	    LOB 		      UNIQUE	      VALID
+
+
+INDEX_NAME			    COLUMN_EXPRESSION
+----------------------------------- ------------------------------------------------------------------------------------------------------------------------
+IDX_ORACLE_BESTELLNUMMER	    JSON_VALUE("DATEN" FORMAT OSON , '$.bestellnummer' RETURNING VARCHAR2(20) NULL O
+IDX_ORACLE_LAND 		    JSON_VALUE("DATEN" FORMAT OSON , '$.kunde.land' RETURNING VARCHAR2(5) NULL ON ER
+IDX_ORACLE_STATUS		    JSON_VALUE("DATEN" FORMAT OSON , '$.status' RETURNING VARCHAR2(30) NULL ON ERROR
+

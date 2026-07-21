@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering
+\begin{tabular}{p{3cm}p{4cm}p{2.5cm}p{2.5cm}p{2.5cm}}
+\hline
+\textbf{System} & \textbf{Operation} & \textbf{ohne Index} & \textbf{mit Index} & \textbf{Veränderung} \\
+\hline
+MySQL & Insert & 240,01 ms & 290,16 ms & 20,89\% \\
+MySQL & Selektion Top-Level & 2,91 ms & 0,98 ms & -66,25\% \\
+MySQL & Selektion verschachtelt & 3,12 ms & 0,49 ms & -84,18\% \\
+MySQL & Selektion Array & 20,63 ms & 20,53 ms & -0,46\% \\
+MySQL & Update & 11,72 ms & 6,03 ms & -48,54\% \\
+MongoDB & Insert & 71,40 ms & 148,82 ms & 108,42\% \\
+MongoDB & Selektion Top-Level & 2,12 ms & 1,05 ms & -50,53\% \\
+MongoDB & Selektion verschachtelt & 2,35 ms & 0,65 ms & -72,10\% \\
+MongoDB & Selektion Array & 2,79 ms & 1,60 ms & -42,61\% \\
+MongoDB & Update & 0,79 ms & 0,83 ms & 5,26\% \\
+OracleDB & Insert & 788,87 ms & 1240,71 ms & 57,28\% \\
+OracleDB & Selektion Top-Level & 3,62 ms & 0,46 ms & -87,40\% \\
+OracleDB & Selektion verschachtelt & 3,75 ms & 0,31 ms & -91,74\% \\
+OracleDB & Selektion Array & 9,07 ms & 9,34 ms & 2,97\% \\
+OracleDB & Update & 13,70 ms & 5,39 ms & -60,68\% \\
+\hline
+\end{tabular}
+\caption{Vergleich der durchschnittlichen Laufzeiten ohne und mit grundlegender Indexierung}
+\label{tab:vergleich-indexierung-json}
+\end{table}

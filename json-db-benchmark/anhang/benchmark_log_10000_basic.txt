@@ -1,0 +1,236 @@
+Erzeuge 10000 Testdokumente...
+
+=== MySQL ===
+MySQL    | Insert                   | Warm-up: 300.495 ms
+MySQL    | Insert                   | Warm-up: 299.841 ms
+MySQL    | Insert                   | Lauf 01: 296.092 ms
+MySQL    | Insert                   | Lauf 02: 297.265 ms
+MySQL    | Insert                   | Lauf 03: 285.350 ms
+MySQL    | Insert                   | Lauf 04: 290.740 ms
+MySQL    | Insert                   | Lauf 05: 292.115 ms
+MySQL    | Insert                   | Lauf 06: 288.779 ms
+MySQL    | Insert                   | Lauf 07: 286.417 ms
+MySQL    | Insert                   | Lauf 08: 285.747 ms
+MySQL    | Insert                   | Lauf 09: 291.879 ms
+MySQL    | Insert                   | Lauf 10: 287.215 ms
+MySQL    | Selektion Top-Level      | Warm-up: 2.184 ms
+MySQL    | Selektion Top-Level      | Warm-up: 1.154 ms
+MySQL    | Selektion Top-Level      | Lauf 01: 0.991 ms
+MySQL    | Selektion Top-Level      | Lauf 02: 0.992 ms
+MySQL    | Selektion Top-Level      | Lauf 03: 0.986 ms
+MySQL    | Selektion Top-Level      | Lauf 04: 1.000 ms
+MySQL    | Selektion Top-Level      | Lauf 05: 0.989 ms
+MySQL    | Selektion Top-Level      | Lauf 06: 1.027 ms
+MySQL    | Selektion Top-Level      | Lauf 07: 0.956 ms
+MySQL    | Selektion Top-Level      | Lauf 08: 0.975 ms
+MySQL    | Selektion Top-Level      | Lauf 09: 0.962 ms
+MySQL    | Selektion Top-Level      | Lauf 10: 0.962 ms
+MySQL    | Selektion verschachtelt  | Warm-up: 0.563 ms
+MySQL    | Selektion verschachtelt  | Warm-up: 0.503 ms
+MySQL    | Selektion verschachtelt  | Lauf 01: 0.494 ms
+MySQL    | Selektion verschachtelt  | Lauf 02: 0.463 ms
+MySQL    | Selektion verschachtelt  | Lauf 03: 0.458 ms
+MySQL    | Selektion verschachtelt  | Lauf 04: 0.503 ms
+MySQL    | Selektion verschachtelt  | Lauf 05: 0.464 ms
+MySQL    | Selektion verschachtelt  | Lauf 06: 0.483 ms
+MySQL    | Selektion verschachtelt  | Lauf 07: 0.538 ms
+MySQL    | Selektion verschachtelt  | Lauf 08: 0.523 ms
+MySQL    | Selektion verschachtelt  | Lauf 09: 0.507 ms
+MySQL    | Selektion verschachtelt  | Lauf 10: 0.506 ms
+MySQL    | Selektion Array          | Warm-up: 21.905 ms
+MySQL    | Selektion Array          | Warm-up: 20.765 ms
+MySQL    | Selektion Array          | Lauf 01: 20.591 ms
+MySQL    | Selektion Array          | Lauf 02: 20.439 ms
+MySQL    | Selektion Array          | Lauf 03: 20.674 ms
+MySQL    | Selektion Array          | Lauf 04: 20.552 ms
+MySQL    | Selektion Array          | Lauf 05: 20.793 ms
+MySQL    | Selektion Array          | Lauf 06: 20.373 ms
+MySQL    | Selektion Array          | Lauf 07: 20.490 ms
+MySQL    | Selektion Array          | Lauf 08: 20.415 ms
+MySQL    | Selektion Array          | Lauf 09: 20.565 ms
+MySQL    | Selektion Array          | Lauf 10: 20.444 ms
+MySQL    | Update                   | Warm-up: 5.331 ms
+MySQL    | Update                   | Warm-up: 6.364 ms
+MySQL    | Update                   | Lauf 01: 5.790 ms
+MySQL    | Update                   | Lauf 02: 5.382 ms
+MySQL    | Update                   | Lauf 03: 8.837 ms
+MySQL    | Update                   | Lauf 04: 5.534 ms
+MySQL    | Update                   | Lauf 05: 5.109 ms
+MySQL    | Update                   | Lauf 06: 6.365 ms
+MySQL    | Update                   | Lauf 07: 5.761 ms
+MySQL    | Update                   | Lauf 08: 6.115 ms
+MySQL    | Update                   | Lauf 09: 6.455 ms
+MySQL    | Update                   | Lauf 10: 4.986 ms
+
+=== MongoDB ===
+MongoDB  | Insert                   | Warm-up: 178.890 ms
+MongoDB  | Insert                   | Warm-up: 149.817 ms
+MongoDB  | Insert                   | Lauf 01: 150.526 ms
+MongoDB  | Insert                   | Lauf 02: 152.704 ms
+MongoDB  | Insert                   | Lauf 03: 147.942 ms
+MongoDB  | Insert                   | Lauf 04: 143.475 ms
+MongoDB  | Insert                   | Lauf 05: 147.583 ms
+MongoDB  | Insert                   | Lauf 06: 150.111 ms
+MongoDB  | Insert                   | Lauf 07: 150.543 ms
+MongoDB  | Insert                   | Lauf 08: 149.161 ms
+MongoDB  | Insert                   | Lauf 09: 147.670 ms
+MongoDB  | Insert                   | Lauf 10: 148.463 ms
+MongoDB  | Selektion Top-Level      | Warm-up: 2.032 ms
+MongoDB  | Selektion Top-Level      | Warm-up: 1.062 ms
+MongoDB  | Selektion Top-Level      | Lauf 01: 1.055 ms
+MongoDB  | Selektion Top-Level      | Lauf 02: 1.055 ms
+MongoDB  | Selektion Top-Level      | Lauf 03: 1.011 ms
+MongoDB  | Selektion Top-Level      | Lauf 04: 1.015 ms
+MongoDB  | Selektion Top-Level      | Lauf 05: 1.046 ms
+MongoDB  | Selektion Top-Level      | Lauf 06: 1.077 ms
+MongoDB  | Selektion Top-Level      | Lauf 07: 1.025 ms
+MongoDB  | Selektion Top-Level      | Lauf 08: 1.047 ms
+MongoDB  | Selektion Top-Level      | Lauf 09: 1.064 ms
+MongoDB  | Selektion Top-Level      | Lauf 10: 1.083 ms
+MongoDB  | Selektion verschachtelt  | Warm-up: 0.853 ms
+MongoDB  | Selektion verschachtelt  | Warm-up: 0.682 ms
+MongoDB  | Selektion verschachtelt  | Lauf 01: 0.646 ms
+MongoDB  | Selektion verschachtelt  | Lauf 02: 0.648 ms
+MongoDB  | Selektion verschachtelt  | Lauf 03: 0.680 ms
+MongoDB  | Selektion verschachtelt  | Lauf 04: 0.631 ms
+MongoDB  | Selektion verschachtelt  | Lauf 05: 0.649 ms
+MongoDB  | Selektion verschachtelt  | Lauf 06: 0.629 ms
+MongoDB  | Selektion verschachtelt  | Lauf 07: 0.657 ms
+MongoDB  | Selektion verschachtelt  | Lauf 08: 0.665 ms
+MongoDB  | Selektion verschachtelt  | Lauf 09: 0.659 ms
+MongoDB  | Selektion verschachtelt  | Lauf 10: 0.681 ms
+MongoDB  | Selektion Array          | Warm-up: 2.094 ms
+MongoDB  | Selektion Array          | Warm-up: 1.649 ms
+MongoDB  | Selektion Array          | Lauf 01: 1.565 ms
+MongoDB  | Selektion Array          | Lauf 02: 1.579 ms
+MongoDB  | Selektion Array          | Lauf 03: 1.628 ms
+MongoDB  | Selektion Array          | Lauf 04: 1.588 ms
+MongoDB  | Selektion Array          | Lauf 05: 1.619 ms
+MongoDB  | Selektion Array          | Lauf 06: 1.587 ms
+MongoDB  | Selektion Array          | Lauf 07: 1.586 ms
+MongoDB  | Selektion Array          | Lauf 08: 1.642 ms
+MongoDB  | Selektion Array          | Lauf 09: 1.577 ms
+MongoDB  | Selektion Array          | Lauf 10: 1.618 ms
+MongoDB  | Update                   | Warm-up: 1.640 ms
+MongoDB  | Update                   | Warm-up: 0.922 ms
+MongoDB  | Update                   | Lauf 01: 0.847 ms
+MongoDB  | Update                   | Lauf 02: 0.895 ms
+MongoDB  | Update                   | Lauf 03: 0.827 ms
+MongoDB  | Update                   | Lauf 04: 0.831 ms
+MongoDB  | Update                   | Lauf 05: 0.830 ms
+MongoDB  | Update                   | Lauf 06: 0.820 ms
+MongoDB  | Update                   | Lauf 07: 0.807 ms
+MongoDB  | Update                   | Lauf 08: 0.800 ms
+MongoDB  | Update                   | Lauf 09: 0.821 ms
+MongoDB  | Update                   | Lauf 10: 0.865 ms
+
+=== OracleDB ===
+OracleDB | Insert                   | Warm-up: 1210.380 ms
+OracleDB | Insert                   | Warm-up: 1256.200 ms
+OracleDB | Insert                   | Lauf 01: 1227.863 ms
+OracleDB | Insert                   | Lauf 02: 1298.419 ms
+OracleDB | Insert                   | Lauf 03: 1218.321 ms
+OracleDB | Insert                   | Lauf 04: 1236.663 ms
+OracleDB | Insert                   | Lauf 05: 1148.454 ms
+OracleDB | Insert                   | Lauf 06: 1245.460 ms
+OracleDB | Insert                   | Lauf 07: 1197.437 ms
+OracleDB | Insert                   | Lauf 08: 1286.061 ms
+OracleDB | Insert                   | Lauf 09: 1276.520 ms
+OracleDB | Insert                   | Lauf 10: 1271.898 ms
+OracleDB | Selektion Top-Level      | Warm-up: 51.049 ms
+OracleDB | Selektion Top-Level      | Warm-up: 0.501 ms
+OracleDB | Selektion Top-Level      | Lauf 01: 0.440 ms
+OracleDB | Selektion Top-Level      | Lauf 02: 0.516 ms
+OracleDB | Selektion Top-Level      | Lauf 03: 0.509 ms
+OracleDB | Selektion Top-Level      | Lauf 04: 0.451 ms
+OracleDB | Selektion Top-Level      | Lauf 05: 0.434 ms
+OracleDB | Selektion Top-Level      | Lauf 06: 0.425 ms
+OracleDB | Selektion Top-Level      | Lauf 07: 0.452 ms
+OracleDB | Selektion Top-Level      | Lauf 08: 0.415 ms
+OracleDB | Selektion Top-Level      | Lauf 09: 0.425 ms
+OracleDB | Selektion Top-Level      | Lauf 10: 0.495 ms
+OracleDB | Selektion verschachtelt  | Warm-up: 9.187 ms
+OracleDB | Selektion verschachtelt  | Warm-up: 0.347 ms
+OracleDB | Selektion verschachtelt  | Lauf 01: 0.274 ms
+OracleDB | Selektion verschachtelt  | Lauf 02: 0.304 ms
+OracleDB | Selektion verschachtelt  | Lauf 03: 0.309 ms
+OracleDB | Selektion verschachtelt  | Lauf 04: 0.337 ms
+OracleDB | Selektion verschachtelt  | Lauf 05: 0.314 ms
+OracleDB | Selektion verschachtelt  | Lauf 06: 0.376 ms
+OracleDB | Selektion verschachtelt  | Lauf 07: 0.302 ms
+OracleDB | Selektion verschachtelt  | Lauf 08: 0.323 ms
+OracleDB | Selektion verschachtelt  | Lauf 09: 0.283 ms
+OracleDB | Selektion verschachtelt  | Lauf 10: 0.276 ms
+OracleDB | Selektion Array          | Warm-up: 20.933 ms
+OracleDB | Selektion Array          | Warm-up: 10.376 ms
+OracleDB | Selektion Array          | Lauf 01: 9.454 ms
+OracleDB | Selektion Array          | Lauf 02: 9.258 ms
+OracleDB | Selektion Array          | Lauf 03: 9.264 ms
+OracleDB | Selektion Array          | Lauf 04: 9.247 ms
+OracleDB | Selektion Array          | Lauf 05: 9.372 ms
+OracleDB | Selektion Array          | Lauf 06: 9.329 ms
+OracleDB | Selektion Array          | Lauf 07: 9.400 ms
+OracleDB | Selektion Array          | Lauf 08: 9.297 ms
+OracleDB | Selektion Array          | Lauf 09: 9.380 ms
+OracleDB | Selektion Array          | Lauf 10: 9.431 ms
+OracleDB | Update                   | Warm-up: 10.210 ms
+OracleDB | Update                   | Warm-up: 2.551 ms
+OracleDB | Update                   | Lauf 01: 2.430 ms
+OracleDB | Update                   | Lauf 02: 2.382 ms
+OracleDB | Update                   | Lauf 03: 32.587 ms
+OracleDB | Update                   | Lauf 04: 2.465 ms
+OracleDB | Update                   | Lauf 05: 2.314 ms
+OracleDB | Update                   | Lauf 06: 2.362 ms
+OracleDB | Update                   | Lauf 07: 2.381 ms
+OracleDB | Update                   | Lauf 08: 2.343 ms
+OracleDB | Update                   | Lauf 09: 2.261 ms
+OracleDB | Update                   | Lauf 10: 2.340 ms
+
+CSV gespeichert unter: results/json_benchmark_10000_basic.csv
+Diagramm gespeichert unter: diagrams/json_benchmark_10000_basic.png
+
+LaTeX-Tabelle mit Durchschnittswerten:
+\begin{table}[H]
+\centering
+\begin{tabular}{p{4cm}p{3cm}p{3cm}p{3cm}}
+\hline
+\textbf{Operation} & \textbf{OracleDB} & \textbf{MongoDB} & \textbf{MySQL} \\
+\hline
+Insert & 1240.71 ms & 148.82 ms & 290.16 ms \\
+Selektion Top-Level & 0.46 ms & 1.05 ms & 0.98 ms \\
+Selektion verschachtelt & 0.31 ms & 0.65 ms & 0.49 ms \\
+Selektion Array & 9.34 ms & 1.60 ms & 20.53 ms \\
+Update & 5.39 ms & 0.83 ms & 6.03 ms \\
+\hline
+\end{tabular}
+\caption{Durchschnittliche Laufzeiten der JSON-Operationen}
+\label{tab:messwerte-json}
+\end{table}
+
+LaTeX-Tabelle mit Median/Minimum/Maximum:
+\begin{table}[H]
+\centering
+\begin{tabular}{p{4cm}p{3cm}p{3cm}p{3cm}p{3cm}}
+\hline
+\textbf{Operation} & \textbf{System} & \textbf{Median} & \textbf{Minimum} & \textbf{Maximum} \\
+\hline
+Insert & MySQL & 289.76 ms & 285.35 ms & 297.27 ms \\
+Selektion Top-Level & MySQL & 0.99 ms & 0.96 ms & 1.03 ms \\
+Selektion verschachtelt & MySQL & 0.50 ms & 0.46 ms & 0.54 ms \\
+Selektion Array & MySQL & 20.52 ms & 20.37 ms & 20.79 ms \\
+Update & MySQL & 5.78 ms & 4.99 ms & 8.84 ms \\
+Insert & MongoDB & 148.81 ms & 143.48 ms & 152.70 ms \\
+Selektion Top-Level & MongoDB & 1.05 ms & 1.01 ms & 1.08 ms \\
+Selektion verschachtelt & MongoDB & 0.65 ms & 0.63 ms & 0.68 ms \\
+Selektion Array & MongoDB & 1.59 ms & 1.57 ms & 1.64 ms \\
+Update & MongoDB & 0.83 ms & 0.80 ms & 0.89 ms \\
+Insert & OracleDB & 1241.06 ms & 1148.45 ms & 1298.42 ms \\
+Selektion Top-Level & OracleDB & 0.45 ms & 0.41 ms & 0.52 ms \\
+Selektion verschachtelt & OracleDB & 0.31 ms & 0.27 ms & 0.38 ms \\
+Selektion Array & OracleDB & 9.35 ms & 9.25 ms & 9.45 ms \\
+Update & OracleDB & 2.37 ms & 2.26 ms & 32.59 ms \\
+\hline
+\end{tabular}
+\caption{Median, Minimum und Maximum der JSON-Operationen}
+\label{tab:messwerte-statistik-json}
+\end{table}

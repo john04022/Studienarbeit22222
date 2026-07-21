@@ -1,0 +1,40 @@
+MongoDB: Prüfung der angelegten Indizes
+=======================================
+
+[
+  {
+    v: 2,
+    key: {
+      _id: 1
+    },
+    name: '_id_'
+  },
+  {
+    v: 2,
+    key: {
+      status: 1
+    },
+    name: 'status_1'
+  },
+  {
+    v: 2,
+    key: {
+      'kunde.land': 1
+    },
+    name: 'kunde.land_1'
+  },
+  {
+    v: 2,
+    key: {
+      bestellnummer: 1
+    },
+    name: 'bestellnummer_1'
+  },
+  {
+    v: 2,
+    key: {
+      'positionen.artikelnummer': 1
+    },
+    name: 'positionen.artikelnummer_1'
+  }
+]
